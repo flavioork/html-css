@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; /* Garante que margens não quebrem o tamanho */
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+  overflow: hidden;
+  
+  /* O segredo está aqui: o fundo é aplicado direto no body */
+  background-image: url('/imagens/espaco.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img_astronauta {
+  width: 150%;
+  height: 150%; /* Mantém a proporção da imagem */
+}

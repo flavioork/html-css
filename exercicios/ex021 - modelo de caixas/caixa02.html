@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 10px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.568);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.568);
+        }
+
+        section{
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.568);
+        }
+
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Seção 1</h2>
+            <article id="artigo1">
+                <h3>Artigo 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, architecto. Voluptas consequatur asperiores quia provident maiores necessitatibus nisi, neque reiciendis eligendi, accusamus beatae ab aut quas voluptate tempore doloribus fugit.</p>
+                <aside>
+                    <h3>Informações adicionais</h3>
+                    <p>Este é um exemplo de conteúdo adicional relacionado ao artigo.</p>
+                </aside>
+            </article>
+            <article id="artigo2">
+                <h3>Artigo 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, architecto. Voluptas consequatur asperiores quia provident maiores necessitatibus nisi, neque reiciendis eligendi, accusamus beatae ab aut quas voluptate tempore doloribus fugit.</p>
+                <aside>
+                    <h3>Informações adicionais</h3>
+                    <p>Este é um exemplo de conteúdo adicional relacionado ao artigo.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Meu site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
